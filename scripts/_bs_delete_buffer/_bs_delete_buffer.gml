@@ -8,7 +8,7 @@ with (bufferStore) {
 
 	var item = _fat_map[? name];
 	if (is_undefined(item)) {
-		show_debug_message("Trying to delete non-existing:"+string(name));
+		if (debug) show_debug_message("Trying to delete non-existing:"+string(name));
 		return false;
 	}
 

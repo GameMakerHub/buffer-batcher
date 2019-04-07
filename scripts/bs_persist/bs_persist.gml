@@ -4,11 +4,11 @@ var bufferStore = argument0;
 //Save
 with (bufferStore) {
 	if (__storing_buffer) {
-		show_debug_message("Store is already being saved...");
+		if (debug) show_debug_message("Store is already being saved...");
 		return 0;
 	}
 	if (!validation) {
-		show_debug_message(" ------ START PERSIST ");
+		if (debug) show_debug_message(" ------ START PERSIST ");
 		__storing_buffer_starttime = get_timer();
 		var start = get_timer();
 		file_text_close(_meta_file);
@@ -29,10 +29,10 @@ with (bufferStore) {
 		}
 
 		file_text_close(_meta_file);
-		show_debug_message("Bufferstore: Stored bufferstore FAT: " + source_meta_filename + " blocksize: "+string(init_blocksize));
+		if (debug) show_debug_message("Bufferstore: Stored bufferstore FAT: " + source_meta_filename + " blocksize: "+string(init_blocksize));
 		_meta_file = file_text_open_read(source_meta_filename);
-		show_debug_message(" ------ PERSISTED META IN " +string((get_timer()-start)/1000) + "ms");
-		show_debug_message(" ------ START PERSIST BLOCKS");
+		if (debug) show_debug_message(" ------ PERSISTED META IN " +string((get_timer()-start)/1000) + "ms");
+		if (debug) show_debug_message(" ------ START PERSIST BLOCKS");
 		var startBlock = get_timer();
 		
 		var key = ds_map_find_first(loaded_blocks);
@@ -45,7 +45,7 @@ with (bufferStore) {
 			}
 			__storing_buffer_id = buffer_async_group_end();
 		}
-		show_debug_message(" ------ PERSIST CALL "+string(ds_map_size(loaded_blocks))+" BLOCKS IN " +string((get_timer()-startBlock)/1000) + "ms");
+		if (debug) show_debug_message(" ------ PERSIST CALL "+string(ds_map_size(loaded_blocks))+" BLOCKS IN " +string((get_timer()-startBlock)/1000) + "ms");
 		
 	}
 }

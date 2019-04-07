@@ -10,6 +10,7 @@ bufferStore.source_filename = string(argument0);
 bufferStore.init_blocksize = argument1;
 bufferStore.memory_limit = argument2;
 bufferStore.validation = argument3;
+bufferStore.debug = false;
 
 if (!bufferStore.validation) {
 	with (bufferStore) {

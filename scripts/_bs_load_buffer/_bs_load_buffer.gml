@@ -9,7 +9,7 @@ var name = argument1;
 with (bufferStore) {
 	var item = _fat_map[? name];
 	if (is_undefined(item)) {
-		show_debug_message("Not found:"+string(name));
+		if (debug) show_debug_message("Not found:"+string(name));
 		return -1;
 	}
 

@@ -30,7 +30,7 @@ with (bufferStore) {
 	_empty_list[| blocks] = ds_list_create();
 	var _blockEmptySpace = [0, blocksize];
 	ds_list_add(_empty_list[| blocks], _blockEmptySpace); //empty from 0 to end
-	show_debug_message("Created block number "+string(blocks));
+	if (debug) show_debug_message("Created block number "+string(blocks));
 	
 	blocks++;
 	return [blocks-1, _blockEmptySpace]; //First empty space is always it
