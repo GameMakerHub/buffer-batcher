@@ -1,8 +1,5 @@
 ///Initialze the buffer store
 
-__storing_buffer = false;
-__storing_buffer_id = undefined;
-
 source_meta_filename = source_filename + "/meta.bsm";
 
 if (!file_exists(source_meta_filename)) {

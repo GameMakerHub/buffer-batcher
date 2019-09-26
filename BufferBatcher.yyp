@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
+            "Value": {
+                "id": "f446cc5d-971d-4dba-854b-e69c35c0f1b8",
+                "resourcePath": "options\\tvos\\options_tvos.yy",
+                "resourceType": "GMtvOSOptions"
+            }
+        },
+        {
             "Key": "95f8a361-b725-46b6-be98-9ea2fe3e928e",
             "Value": {
                 "id": "b8092769-a1a6-4556-92e2-c791efac12a6",
@@ -378,8 +386,8 @@
     "script_order": [
         "670863d9-cbb0-46d9-870b-e4162096e479",
         "497257ed-8d9e-47ba-9769-429238aa4d27",
-        "557aad05-e458-484f-9129-29a8b633a417",
         "0b06dcaf-b104-4dd8-8938-bdf062e1d9f8",
+        "557aad05-e458-484f-9129-29a8b633a417",
         "ee5f8913-09c4-448b-ab53-92f9539e903b",
         "74009223-9c41-4d21-8cd8-916e27cf8111",
         "82b45d67-386b-4182-90e0-3e691274cb07",

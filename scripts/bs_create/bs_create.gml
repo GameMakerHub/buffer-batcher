@@ -11,6 +11,8 @@ bufferStore.init_blocksize = argument1;
 bufferStore.memory_limit = argument2;
 bufferStore.validation = argument3;
 bufferStore.debug = false;
+bufferStore.__storing_buffer = false;
+bufferStore.__storing_buffer_id = undefined;
 
 if (!bufferStore.validation) {
 	with (bufferStore) {

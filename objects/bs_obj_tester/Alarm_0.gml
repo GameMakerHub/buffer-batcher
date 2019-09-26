@@ -144,6 +144,7 @@ show_debug_message("Total read ops: " +string(readOps));
 //show_debug_message("Total read ops: " +string(readOps));
 
 show_debug_message("Persist destroy loading new");
+
 start = get_timer();
 bs_persist(bufferStore);
 bs_destroy(bufferStore);
