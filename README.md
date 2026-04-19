@@ -7,6 +7,10 @@ smaller buffers. These are persisted on disk, along with a mapping.
 This greatly improves the speed of reading lots of tiny buffers, particulary useful for saving / 
 loading chunked worlds. 
 
+## Versions
+Version 1.2.0 is for GMS2.3 / GM2022 / GM-LTS / GM2024 and up
+Version 1.1.0 is for GMS2.2 and before
+
 ## Example usage
 ```gml 
 // Setup a store with 8MB blocks, and try to keep memory usage under 32 megabytes.

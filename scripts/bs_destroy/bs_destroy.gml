@@ -1,10 +1,9 @@
 ///@param bufferStore
-var bufferStore = argument0;
+function bs_destroy(argument0) {
+	var bufferStore = argument0;
 
-//Unload all blocks
-
-
-//Destroy
-with (bufferStore) {
-	instance_destroy();
+	//Destroy
+	with (bufferStore) {
+		instance_destroy();
+	}
 }

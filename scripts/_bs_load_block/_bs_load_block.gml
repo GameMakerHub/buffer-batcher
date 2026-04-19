@@ -1,14 +1,18 @@
 ///@param _blockId
 ///@return buffer
-var _blockId = argument0;
+function _bs_load_block(argument0) {
+	var _blockId = argument0;
 
-//Find file
+	//Find file
 
-var block = loaded_blocks[? _blockId];
-if (is_undefined(block)) {
-	if (debug) show_debug_message("Loading unloaded block: "+string(_blockId));
-	block = buffer_load(source_filename + "/"+string(_blockId)+".bsd");
-	ds_map_add(loaded_blocks, _blockId, block);
+	var block = loaded_blocks[? _blockId];
+	if (is_undefined(block)) {
+		if (debug) show_debug_message("Loading unloaded block: "+string(_blockId));
+		block = buffer_load(source_filename + "/"+string(_blockId)+".bsd");
+		ds_map_add(loaded_blocks, _blockId, block);
+	}
+
+	return block;
+
+
 }
-
-return block;

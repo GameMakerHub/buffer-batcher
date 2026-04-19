@@ -1,0 +1,25 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Objects","order":10,"path":"folders/Objects.yy",},
+    {"name":"Rooms","order":11,"path":"folders/Rooms.yy",},
+    {"name":"Scripts","order":6,"path":"folders/Scripts.yy",},
+    {"name":"internal","order":4,"path":"folders/Scripts/internal.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"bs_obj_tester","order":2,"path":"objects/bs_obj_tester/bs_obj_tester.yy",},
+    {"name":"bs_obj_visual_debug","order":1,"path":"objects/bs_obj_visual_debug/bs_obj_visual_debug.yy",},
+    {"name":"_bs_combine_empty","order":6,"path":"scripts/_bs_combine_empty/_bs_combine_empty.yy",},
+    {"name":"_bs_delete_buffer","order":5,"path":"scripts/_bs_delete_buffer/_bs_delete_buffer.yy",},
+    {"name":"_bs_find_empty","order":3,"path":"scripts/_bs_find_empty/_bs_find_empty.yy",},
+    {"name":"_bs_load_block","order":4,"path":"scripts/_bs_load_block/_bs_load_block.yy",},
+    {"name":"_bs_load_buffer","order":1,"path":"scripts/_bs_load_buffer/_bs_load_buffer.yy",},
+    {"name":"_bs_write_buffer","order":2,"path":"scripts/_bs_write_buffer/_bs_write_buffer.yy",},
+    {"name":"bs_delete","order":8,"path":"scripts/bs_delete/bs_delete.yy",},
+    {"name":"bs_destroy","order":6,"path":"scripts/bs_destroy/bs_destroy.yy",},
+    {"name":"bs_exists","order":7,"path":"scripts/bs_exists/bs_exists.yy",},
+    {"name":"bs_load","order":2,"path":"scripts/bs_load/bs_load.yy",},
+    {"name":"bs_persist","order":5,"path":"scripts/bs_persist/bs_persist.yy",},
+    {"name":"bs_save","order":1,"path":"scripts/bs_save/bs_save.yy",},
+    {"name":"bs_set_debug","order":3,"path":"scripts/bs_set_debug/bs_set_debug.yy",},
+  ],
+}

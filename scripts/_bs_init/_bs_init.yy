@@ -1,8 +1,13 @@
 {
-    "id": "ee5f8913-09c4-448b-ab53-92f9539e903b",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "_bs_init",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "$GMScript":"v1",
+  "%Name":"_bs_init",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"_bs_init",
+  "parent":{
+    "name":"internal",
+    "path":"folders/Scripts/internal.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

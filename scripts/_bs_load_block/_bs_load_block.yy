@@ -1,8 +1,13 @@
 {
-    "id": "7fb755c0-7a94-447b-a3d9-ec466a461149",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "_bs_load_block",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "$GMScript":"v1",
+  "%Name":"_bs_load_block",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"_bs_load_block",
+  "parent":{
+    "name":"internal",
+    "path":"folders/Scripts/internal.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

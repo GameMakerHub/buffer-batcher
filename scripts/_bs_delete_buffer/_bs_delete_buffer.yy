@@ -1,8 +1,13 @@
 {
-    "id": "40445f2c-09c2-4610-bb2b-094ccaddaaaf",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "_bs_delete_buffer",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "$GMScript":"v1",
+  "%Name":"_bs_delete_buffer",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"_bs_delete_buffer",
+  "parent":{
+    "name":"internal",
+    "path":"folders/Scripts/internal.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

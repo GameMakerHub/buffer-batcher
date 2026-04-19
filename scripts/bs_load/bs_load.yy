@@ -1,8 +1,13 @@
 {
-    "id": "0b06dcaf-b104-4dd8-8938-bdf062e1d9f8",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "bs_load",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "$GMScript":"v1",
+  "%Name":"bs_load",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"bs_load",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
